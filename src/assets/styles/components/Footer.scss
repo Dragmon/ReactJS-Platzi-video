@@ -1,0 +1,21 @@
+@import '../Variables.scss';
+
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: $colorGreen;
+  height: 100px;
+  width: 100%;
+}
+
+.footer a {
+  color: $colorWhite;
+  cursor: pointer;
+  font-size: 14px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

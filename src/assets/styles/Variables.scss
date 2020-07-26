@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+$theme-font: 'Muli', sans-serif;
+$colorWhite: #FCFCFC;
+$colorGreen: #0CBABA;
+$colorBlack: #000000;
+$colorBlueBackground: #2e89e6;
+$backgroundGradient: linear-gradient(#2e89e6, #0CBABA);
+
+@mixin flex{
+  display: flex;
+  align-items: center;
+}

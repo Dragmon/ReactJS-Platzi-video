@@ -1,0 +1,12 @@
+@import './Variables.scss';
+@import './components/Media.scss';
+
+body {
+  margin: 0px;
+  background-color: $colorBlueBackground;
+  font-family: $theme-font;
+}
+
+*{
+  box-sizing: border-box;
+}
